@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title"> Hippocampus Educational Tech Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+      Name
+    </label>
+    <input placeholder="name" id="name" type="text"required/>
+  </div>
+  <div class="input-element">
+    <label id="email-label">
+      Email
+    </label>
+    <input placeholder="email" id="email" type="email"required/>
+  </div>
+  <div class="input-element">
+    <label id="number-label">
+      Age
+    </label>
+    <input placeholder="age"id="number" min="5" max="100" type="number" required/>
+  </div>
+  <div>
+    <div class="input-element">
+      <label id="select-label">
+        Which grade are you?
+      </label>
+      <select id="dropdown">
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+    </div>
+    <div>
+      <label>
+        Have you ever taken online tutoring before?
+      </label>
+      </div>
+      <div>
+        <label><input type="radio" name="ever" value="yes"/>Yes</label>
+      </div>
+      <div>
+        <label><input type="radio" name="ever" value="no"/>No</label>
+      </div>
+  </div>
+   <div>
+      <label>
+        Which feature do you want to use in educational tech?
+      </label>
+      </div>
+      <div>
+        <label><input type="checkbox" name="fitur" value="Module"/>Module</label>
+      </div>
+      <div>
+        <label><input type="checkbox" name="fitur" value="Video"/>Video Tutoring</label>
+      </div>
+      <div>
+        <label><input type="checkbox" name="fitur" value="Discount"/>Discount</label>
+      </div>
+      <div>
+        <label><input type="checkbox" name="fitur"/ value=" Class">Class Packet</label>
+        <div>
+          <label><input type="checkbox" name="fitur" value="Q&A"/>Q&A Section</label>
+          <div>
+            <label><input type="checkbox" name="fitur" value="Test"/>Many Test</label>
+          </div>
+        </div>
+      </div>
+      <div class="input-element">
+        <label>Additional Comments</label>
+        <textarea type="text"></textarea>
+      </div>
+      <button type="submit" id="submit"/>submit</button>
+</form>
